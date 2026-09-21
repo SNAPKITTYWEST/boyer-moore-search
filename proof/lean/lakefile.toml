@@ -1,0 +1,14 @@
+[package]
+name = "boyer-moore-formal"
+version = "0.1.0"
+lean = "4.12.0"
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "master"
+
+[[require]]
+name = "aesop"
+git = "https://github.com/leanprover-community/aesop.git"
+rev = "master"
