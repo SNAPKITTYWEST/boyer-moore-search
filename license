@@ -1,0 +1,586 @@
+# SNAPKITTY STRONG NETWORK COPYLEFT LICENSE
+
+## VERSION 1.0 — SSNCL-1.0
+
+Copyright © 2026 SnapKitty Collective and contributors.
+
+This License is a strong copyleft software license designed for distributed, networked, modular, computational, and node-based software systems.
+
+The purpose of this License is to ensure that the freedoms granted by this License remain available throughout the computational network in which the Covered Work operates, including modifications, derivative components, Covered Nodes, Covered Blocks, hosted deployments, and network services.
+
+This License is not the GNU General Public License and is not affiliated with or approved by the Free Software Foundation.
+
+---
+
+# 1. DEFINITIONS
+
+## 1.1 "License"
+
+"License" means the SnapKitty Strong Network Copyleft License Version 1.0, abbreviated SSNCL-1.0.
+
+## 1.2 "Covered Work"
+
+"Covered Work" means:
+
+1. the original work distributed under this License;
+2. any modification of that work;
+3. any work based upon, derived from, or incorporating a substantial portion of the Covered Work;
+4. any Covered Block;
+5. any Covered Node;
+6. any combined work in which the Covered Work forms an integral computational component; and
+7. any successor version designated by the copyright holder as a Covered Work.
+
+## 1.3 "Source Code"
+
+"Source Code" means the preferred form of the work for making modifications, including source files, build instructions, interface definitions, schemas, configuration necessary for reproduction, generated-source procedures, and other materials reasonably necessary to reproduce the corresponding executable form.
+
+## 1.4 "Corresponding Source"
+
+"Corresponding Source" means all Source Code and other materials necessary for a recipient possessing the Covered Work to:
+
+* study it;
+* modify it;
+* build it;
+* test it;
+* reproduce its covered functionality; and
+* operate the modified version.
+
+Corresponding Source includes applicable build scripts, dependency manifests, interface definitions, protocol specifications, schema definitions, deployment definitions, and configuration necessary to reproduce the Covered Work.
+
+## 1.5 "Node"
+
+A "Node" means a computational or service endpoint participating in execution, storage, validation, orchestration, inference, transformation, communication, coordination, or other operation of a Covered Work.
+
+A Node may include, without limitation:
+
+* a physical computer;
+* virtual machine;
+* container;
+* GPU;
+* accelerator;
+* embedded device;
+* server;
+* client;
+* edge device;
+* cloud instance;
+* validator;
+* worker;
+* coordinator;
+* gateway;
+* inference server;
+* storage node; or
+* other computational endpoint.
+
+## 1.6 "Covered Node"
+
+A "Covered Node" means a Node that:
+
+1. contains Covered Code;
+2. executes Covered Code;
+3. materially incorporates Covered Code;
+4. provides Covered functionality; or
+5. participates in a Covered Network in a manner that materially implements the Covered Work.
+
+## 1.7 "Block"
+
+A "Block" means a separable computational, logical, functional, executable, or architectural component of a Covered Work.
+
+Examples include:
+
+* modules;
+* libraries;
+* packages;
+* kernels;
+* services;
+* processes;
+* plugins;
+* workers;
+* protocol components;
+* smart-contract-like components;
+* inference components;
+* database components;
+* hardware-description components;
+* accelerator components;
+* distributed jobs; and
+* computational stages.
+
+## 1.8 "Covered Block"
+
+A "Covered Block" means a Block that contains, incorporates, derives from, links to, or materially implements Covered Code.
+
+## 1.9 "Covered Network"
+
+"Covered Network" means any system in which two or more Nodes or Blocks communicate, coordinate, exchange data, execute tasks, provide services, validate results, or otherwise participate in computation involving a Covered Work.
+
+## 1.10 "Network Service"
+
+"Network Service" means functionality provided through a network, including:
+
+* APIs;
+* web services;
+* RPC;
+* inference endpoints;
+* hosted applications;
+* remote execution;
+* cloud services;
+* serverless functions;
+* distributed computation;
+* remote kernels;
+* job queues;
+* network-accessible databases; and
+* similar services.
+
+## 1.11 "Operator"
+
+"Operator" means any person or organization controlling, administering, deploying, hosting, modifying, or operating a Covered Node, Covered Block, Covered Work, or Network Service.
+
+## 1.12 "Recipient"
+
+"Recipient" means any person or organization receiving, accessing, executing, modifying, interacting with, or receiving functionality from a Covered Work.
+
+---
+
+# 2. COPYRIGHT GRANT
+
+Subject to the terms of this License, each copyright holder grants every Recipient a perpetual, worldwide, non-exclusive, royalty-free license to:
+
+1. use the Covered Work;
+2. study the Covered Work;
+3. copy the Covered Work;
+4. modify the Covered Work;
+5. create derivative works;
+6. distribute copies;
+7. distribute modified versions;
+8. publicly perform the Covered Work;
+9. publicly display the Covered Work; and
+10. operate the Covered Work as part of a Covered Network.
+
+These rights are granted only subject to continued compliance with this License.
+
+---
+
+# 3. STRONG COPYLEFT CONDITION
+
+Any distribution, modification, incorporation, or Network Service involving a Covered Work is permitted only if the resulting Covered Work remains available under this License.
+
+No Recipient may impose additional restrictions that diminish the rights granted by this License.
+
+A Covered Work may not be relicensed under a proprietary license.
+
+---
+
+# 4. NETWORK COPYLEFT
+
+## 4.1 General Rule
+
+The obligations of this License apply to Covered Works operated through a Network Service.
+
+A person or organization may not avoid the copyleft requirements of this License solely by executing the Covered Work on a remote computer.
+
+## 4.2 No SaaS Exception
+
+There is no service-only exception to this License.
+
+The obligations of this License may apply when a Covered Work is:
+
+* hosted remotely;
+* executed in a cloud environment;
+* provided through an API;
+* exposed through RPC;
+* executed through serverless infrastructure;
+* provided through remote inference;
+* executed inside containers;
+* operated through a web interface;
+* executed by workers;
+* distributed across Nodes; or
+* otherwise provided as a Network Service.
+
+## 4.3 Source Availability
+
+When a Covered Work is used to provide a Network Service, the Operator must make the Corresponding Source for the Covered Work and applicable modifications available to Recipients under this License.
+
+The Corresponding Source must remain available for as long as the Covered Network Service is operated and for a reasonable period thereafter sufficient for Recipients to obtain the applicable version.
+
+---
+
+# 5. NODE COPYLEFT
+
+Each Covered Node must remain subject to this License.
+
+An Operator may not create a proprietary Covered Node by placing Covered Code inside:
+
+* a server;
+* container;
+* virtual machine;
+* accelerator;
+* worker;
+* edge device;
+* cloud instance;
+* embedded device; or
+* other computational endpoint.
+
+If a Covered Node is modified, the modifications constitute part of the Covered Work and must be made available under this License when the Network Copyleft requirements are triggered.
+
+---
+
+# 6. BLOCK COPYLEFT
+
+Each Covered Block inherits the copyleft requirements of this License.
+
+A Covered Block may not be separated from the Covered Work for the purpose of avoiding the obligations of this License.
+
+If a Covered Block is modified, the modified Covered Block must be licensed under this License.
+
+If multiple Covered Blocks collectively implement a Covered Work, each Covered Block must remain available under this License to the extent it constitutes a Covered Work or derivative component under applicable copyright law.
+
+---
+
+# 7. DISTRIBUTED SYSTEMS
+
+A Covered Work may consist of multiple Nodes and Blocks.
+
+The separation of Covered Code into separate processes, services, containers, repositories, packages, machines, or networks does not by itself terminate the obligations of this License.
+
+An Operator may not evade this License merely by dividing a Covered Work into separately deployed components.
+
+This provision does not determine, by itself, whether independently created software constitutes a derivative work under applicable copyright law.
+
+---
+
+# 8. MODIFICATIONS
+
+Any modification of a Covered Work must:
+
+1. identify the modified files;
+2. preserve applicable copyright notices;
+3. preserve this License notice;
+4. provide the modified Source Code when required by this License; and
+5. remain licensed under this License.
+
+Modified versions must not falsely represent themselves as the original unmodified work.
+
+---
+
+# 9. COMPLETE CORRESPONDING SOURCE
+
+The Corresponding Source must include, where applicable:
+
+* source code;
+* build scripts;
+* compilation instructions;
+* package manifests;
+* interface definitions;
+* schemas;
+* protocol definitions;
+* deployment configuration;
+* container definitions;
+* infrastructure definitions;
+* test suites;
+* reproducibility information;
+* generated-source tooling;
+* kernel sources;
+* accelerator sources;
+* hardware-description sources;
+* configuration required for operation; and
+* other materials reasonably necessary to reproduce the Covered Work.
+
+Secrets, passwords, private cryptographic keys, and unrelated confidential information are not required to be disclosed solely by this section.
+
+---
+
+# 10. APIs AND INTERFACES
+
+An Operator may not avoid Corresponding Source obligations by exposing Covered functionality solely through an API.
+
+Where an interface is necessary to reproduce or modify the Covered functionality, the relevant interface specification must be included in the Corresponding Source.
+
+This includes, where applicable:
+
+* API schemas;
+* RPC definitions;
+* message formats;
+* protocol definitions;
+* data schemas;
+* function signatures; and
+* interface contracts.
+
+---
+
+# 11. CONTAINERS AND VIRTUALIZATION
+
+Containerization, virtualization, sandboxing, orchestration, or hardware abstraction does not by itself remove Covered Code from the scope of this License.
+
+The use of:
+
+* Docker-like containers;
+* virtual machines;
+* Kubernetes-like orchestration;
+* serverless runtimes;
+* unikernels;
+* emulators; or
+* other execution environments
+
+does not create an exception to this License.
+
+---
+
+# 12. AI AND MACHINE-LEARNING SYSTEMS
+
+Where a Covered Work contains executable machine-learning software, the Corresponding Source includes the applicable software necessary to reproduce the Covered Work.
+
+Where a trained model is itself a Covered Work, the applicable model parameters, configuration, architecture description, training or conversion procedures, and other materials necessary to reproduce the Covered Work must be treated as Corresponding Source to the extent legally required and reasonably available.
+
+This License does not automatically classify unrelated data, independently created datasets, or independently created models as Covered Works merely because they interact with Covered Software.
+
+---
+
+# 13. GENERATED OUTPUT
+
+Output produced through ordinary operation of a Covered Work is not automatically subject to this License solely because the Covered Work produced it.
+
+However, generated code, models, kernels, schemas, or other artifacts that themselves constitute Covered Works remain subject to this License.
+
+---
+
+# 14. PATENT LICENSE
+
+Each contributor grants a perpetual, worldwide, non-exclusive, royalty-free patent license to make, have made, use, offer to sell, sell, import, and otherwise practice patent claims necessarily infringed by the contributor's contribution to the extent such claims are necessarily infringed by that contribution.
+
+If a Recipient initiates patent litigation alleging that the Covered Work or a contribution to it infringes a patent, the patent license granted to that Recipient under this License terminates as to the relevant claims upon commencement of the litigation.
+
+---
+
+# 15. NO ADDITIONAL RESTRICTIONS
+
+A Recipient may not impose:
+
+* additional license fees;
+* additional contractual restrictions;
+* technological restrictions;
+* DRM restrictions;
+* confidentiality requirements inconsistent with this License;
+* restrictions preventing lawful modification; or
+* restrictions preventing redistribution under this License.
+
+No additional restriction may diminish the rights granted by this License.
+
+---
+
+# 16. USER CONTROL
+
+Where a Covered Work is installed on a device controlled by a Recipient, the Operator must not use technical mechanisms solely intended to prevent the Recipient from installing and executing modified versions of the Covered Work where such prevention would defeat rights granted by this License.
+
+Necessary security mechanisms are not prohibited merely because they exist, provided they are not used to nullify the rights granted by this License.
+
+---
+
+# 17. ATTRIBUTION
+
+Recipients must preserve:
+
+* copyright notices;
+* authorship notices;
+* license notices;
+* modification notices; and
+* notices identifying the Covered Work.
+
+Attribution requirements must not be used to impose restrictions inconsistent with this License.
+
+---
+
+# 18. LICENSE NOTICE
+
+Every copy or substantial portion of a Covered Work must include a prominent notice stating:
+
+"Licensed under the SnapKitty Strong Network Copyleft License Version 1.0."
+
+The notice must identify the location from which the Corresponding Source may be obtained when applicable.
+
+---
+
+# 19. SOURCE AVAILABILITY FOR NETWORK SERVICES
+
+For a Network Service subject to this License, the Operator must provide Recipients with a practical means of obtaining the Corresponding Source.
+
+The source-access mechanism may include:
+
+* a public repository;
+* a source archive;
+* a downloadable source package;
+* a source server;
+* an authenticated source portal; or
+* another practical mechanism providing equivalent access.
+
+Access to Corresponding Source may not be conditioned upon purchasing a proprietary license.
+
+---
+
+# 20. COMMERCIAL USE
+
+Commercial use is permitted.
+
+Charging money for:
+
+* support;
+* hosting;
+* consulting;
+* hardware;
+* installation;
+* maintenance;
+* distribution; or
+* other services
+
+does not by itself violate this License.
+
+Commercial activity remains subject to the copyleft obligations of this License.
+
+---
+
+# 21. NO PROPRIETARY FORK
+
+A Recipient may create a modified version of the Covered Work for private use.
+
+A Recipient may not distribute or operate a Covered Work subject to the Network Copyleft provisions under terms that prohibit recipients from exercising the rights granted by this License.
+
+---
+
+# 22. COMPATIBILITY
+
+A work may be combined with independently licensed software where such combination does not cause the Covered Work to become subject to additional restrictions prohibited by this License.
+
+Where another license imposes restrictions incompatible with this License, the incompatible restrictions must not be applied to the Covered Work.
+
+---
+
+# 23. TERMINATION
+
+Any rights granted under this License terminate automatically upon material violation of its terms.
+
+Termination does not terminate licenses granted to other Recipients who remain in compliance.
+
+---
+
+# 24. CURE AND REINSTATEMENT
+
+If a violation is completely cured within thirty days after the violator receives notice of the violation, the license rights of the violating party are reinstated automatically.
+
+If the violation is cured after thirty days, reinstatement may occur when the copyright holder provides written confirmation or where applicable law otherwise permits reinstatement.
+
+---
+
+# 25. NO WARRANTY
+
+THE COVERED WORK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, OR NON-INFRINGEMENT, EXCEPT TO THE EXTENT SUCH WARRANTIES CANNOT LAWFULLY BE EXCLUDED.
+
+---
+
+# 26. LIMITATION OF LIABILITY
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, NO COPYRIGHT HOLDER OR CONTRIBUTOR SHALL BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES ARISING FROM THE USE OR INABILITY TO USE THE COVERED WORK.
+
+---
+
+# 27. INTERPRETATION
+
+This License shall be interpreted to preserve the freedom to:
+
+1. use the Covered Work;
+2. study the Covered Work;
+3. modify the Covered Work;
+4. redistribute the Covered Work;
+5. access Corresponding Source; and
+6. operate modified versions.
+
+Where a provision is ambiguous, it should, to the maximum extent legally permissible, be interpreted consistently with these freedoms.
+
+Nothing in this License creates rights beyond those permitted by applicable law.
+
+---
+
+# 28. SEVERABILITY
+
+If any provision of this License is determined to be invalid or unenforceable, that provision shall be interpreted or modified only to the minimum extent necessary to make it enforceable.
+
+The remaining provisions shall remain in effect.
+
+---
+
+# 29. NO WAIVER
+
+Failure to enforce a provision of this License does not constitute a waiver of that provision.
+
+A waiver must be expressly granted in writing by the applicable copyright holder.
+
+---
+
+# 30. CONTRIBUTOR TERMS
+
+Each contributor submitting material for inclusion in a Covered Work represents that:
+
+1. the contributor has the legal right to submit the material;
+2. the material may be licensed under this License; and
+3. the contributor grants the rights necessary for the Covered Work to remain licensed under this License.
+
+---
+
+# 31. VERSIONING
+
+The copyright holder may publish later versions of this License.
+
+A Covered Work may specify that it is licensed under:
+
+"SSNCL-1.0 only"
+
+or:
+
+"SSNCL-1.0 or any later version."
+
+A Recipient must comply with the version applicable to the Covered Work.
+
+---
+
+# 32. GOVERNING PRINCIPLE
+
+This License establishes the following fundamental rule:
+
+> **If the freedom enters the network through a Covered Work, the freedom must remain available throughout every Covered implementation to which the copyleft obligations of this License legally attach.**
+
+No architecture, deployment model, hosting arrangement, API boundary, container boundary, virtualization layer, cloud provider, distributed-worker arrangement, or Node/Block separation shall by itself be treated as an automatic exception to the copyleft requirements of this License.
+
+---
+
+# 33. LICENSE HEADER
+
+Recommended source-file header:
+
+```text
+Copyright © 2026 SnapKitty Collective and contributors.
+
+This file is part of a work licensed under the
+SnapKitty Strong Network Copyleft License Version 1.0 (SSNCL-1.0).
+
+You may use, study, modify, copy, and redistribute this work
+only under the terms of SSNCL-1.0.
+
+A copy of SSNCL-1.0 must accompany this work.
+```
+
+---
+
+# 34. SPDX IDENTIFIER
+
+Until an official SPDX identifier is assigned, projects should use:
+
+```text
+License: SSNCL-1.0
+```
+
+and should not claim that SSNCL-1.0 is an SPDX-approved identifier.
+
+---
+
+# 35. COPYRIGHT
+
+Copyright © 2026 SnapKitty Collective and contributors.
+
+All rights reserved except as expressly granted under SSNCL-1.0.
