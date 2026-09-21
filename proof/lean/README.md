@@ -68,9 +68,10 @@ lake build DocsGen
 
 ## License
 
-MIT OR Apache-2.0 OR GPL-3.0-or-later
+Apache-2.0 OR GPL-3.0-or-later
 
 With Sovereign Leviathan Node License (AGPL-3.0 additional terms).
+Commercial repository - no MIT license.
 
 ## References
 

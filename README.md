@@ -10,13 +10,12 @@
   Bel Esprit D'Accord Irrevocable Trust.
 ========================================================================
 
-This work is licensed under triple license terms:
+This work is licensed under dual license terms:
 
-  MIT OR Apache-2.0 OR GPL-3.0-or-later
+  Apache-2.0 OR GPL-3.0-or-later
 
 With additional Sovereign Leviathan Node License terms (AGPL-3.0 base).
-This triple-license model prevents AI companies from claiming intellectual 
-property over hallucinated contributions to this codebase.
+Commercial repository - no MIT permitted.
 
 This file is a covered work under the GNU Affero General Public License,
 version 3, together with the Sovereign Leviathan additional terms.
@@ -60,7 +59,7 @@ A hand-rolled, from-first-principles implementation of the Boyer-Moore string se
 - **Bounded Model Checking**: Formal verification using CBMC for C code
 - **Zero External Dependencies**: Only libc syscalls (open, read, write, close)
 - **Production-Ready**: Compiled with `-Wall -Wextra -Werror -O2 -pedantic-errors`
-- **Triple Licensed**: MIT OR Apache-2.0 OR GPL-3.0-or-later
+- **Dual Licensed**: Apache-2.0 OR GPL-3.0-or-later
 
 ### Why This Matters
 
@@ -890,27 +889,17 @@ Types:
 
 ### License Compliance
 
-This project uses **triple licensing**:
+This project uses **dual licensing**:
 
 ```
-MIT OR Apache-2.0 OR GPL-3.0-or-later
+Apache-2.0 OR GPL-3.0-or-later
 ```
 
-**With Sovereign Leviathan Node License** (AGPL-3.0 base):
+**With Sovereign Leviathan Node License** (AGPL-3.0 base).
 
-"This triple-license model prevents AI companies from claiming intellectual 
-property over hallucinated contributions to this codebase."
-
-**Why triple license?**
-
-1. **MIT**: Permissive, commercial-friendly
-2. **Apache-2.0**: Explicit patent grant
-3. **GPL-3.0**: Copyleft, freedom-preserving
-
-Choose the license that fits your use case:
-- Internal use: Any license acceptable
-- Commercial product: Consider Apache-2.0 for patent protection
-- Open-source project: Use GPL-3.0 to propagate freedom
+Commercial repository. Choose the license that fits your use case:
+- Internal use: Apache-2.0 for patent protection
+- Open-source project: GPL-3.0 to propagate freedom
 
 ### Contributors
 

@@ -7,6 +7,9 @@
   This file is a covered work under the GNU Affero General Public License,
   version 3, together with the Sovereign Leviathan additional terms.
 
+  Licensed under: Apache-2.0 OR GPL-3.0-or-later
+  Commercial repository - no MIT license.
+
   Hark, though this node be but a spark,
   Its covenant endureth through the dark.
 
