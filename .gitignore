@@ -1,0 +1,26 @@
+# Build artifacts
+*.o
+*.a
+*.so
+*.dylib
+*.exe
+bin/bm
+tests/test_bm
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dependencies
+node_modules/
+
+# Temporary
+*.tmp
+*.bak
